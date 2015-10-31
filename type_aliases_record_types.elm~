@@ -1,0 +1,13 @@
+import Graphics.Element exposing (show)
+import List exposing (length, filter, map)
+
+type alias Person
+  = {fname: String, lname: String, age: Int}
+  
+p1 =  {fname= "JK", lname= "Rowling", age= 24}
+
+
+
+
+main = 
+  show [p1.fname]
